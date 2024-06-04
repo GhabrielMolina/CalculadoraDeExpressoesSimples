@@ -1,5 +1,4 @@
-consiste no desenvolvimento de uma
-solução para uma calculadora baseada em pilha para resolver expressões aritméticas simples com
+Consiste no desenvolvimento de uma solução para uma calculadora baseada em pilha para resolver expressões aritméticas simples com
 parênteses, colchetes e chaves, e números inteiros. Apenas as seguintes operações serão consideradas:
 soma(+), subtração(-), multiplicação(*), divisão(/) e potência(^).
 
@@ -16,8 +15,7 @@ prioridade das operações será feita somente através do uso de parênteses, c
 Considere que os números de entrada são números inteiros, mas o resultado pode ser um número
 real/double.
 
-O conjunto de expressões que devem ser avaliadas está em um arquivo disponível no Moodle. A solução
-a ser implementada deve ler este arquivo e apresentar o resultado de cada expressão, considerando que
+A solução a ser implementada deve ler este arquivo e apresentar o resultado de cada expressão, considerando que
 algumas delas poderão ter erro de sintaxe (por exemplo, um parêntese ou colchete a mais ou a menos,
 ter mais operadores do que operandos, etc.). Além de apresentar o resultado da expressão, deverá
 também ser processado o tamanho máximo atingido pela pilha para resolver a expressão, e deverá ser

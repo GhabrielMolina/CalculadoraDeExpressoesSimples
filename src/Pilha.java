@@ -2,6 +2,10 @@ public class Pilha {
   private class Node {
     double element;
     Node next;
+
+    public Node(double element) {
+      this.element = element;
+    }
   }
 
   private Node top;
@@ -13,9 +17,9 @@ public class Pilha {
   }
 
   public void push(double e) {
-    Node newNode = new Node();
-    newNode.element = e;
-    newNode.next = top;
+    Node newNode = new Node(e);
+    if(size != 0)
+      newNode.next = top;
     top = newNode;
     size++;
   }
